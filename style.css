@@ -1,0 +1,133 @@
+/* ===== General ===== */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f7f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background: url("./background.jpg");
+
+}
+
+h2 {
+  text-align: center;
+  color: #444;
+  margin-top: 20px;
+}
+
+/* ===== Container for Pages =====
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+} */
+
+/* ===== Table Styles ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 5px solid #ddd;
+}
+
+table th {
+  background-color: #007bff;
+  color: white;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+table td a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+table td a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Forms ===== */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 200px;
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* ===== Search Input ===== */
+input[name="search"] {
+  width: 300px;
+}
+
+/* ===== Links ===== */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.add-student {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-student a {
+  margin-bottom: 15px;
+  padding: 15px 30px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.add-student a:hover {
+  background-color: #218838;
+  text-decoration: none;
+  font-weight: 700;
+}
